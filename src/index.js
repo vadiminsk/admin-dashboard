@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './components/App/index';
+import PrimarySearchAppBar from './components/App/index';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <PrimarySearchAppBar/>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
